@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: #060a0f;
+    color: #e8f4f8;
+    font-family: 'Syne', sans-serif;
+    overflow-x: hidden;
+  }
+
+  ::selection {
+    background: rgba(0, 229, 255, 0.2);
+    color: #00e5ff;
+  }
+
+  ::-webkit-scrollbar {
+    width: 4px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #060a0f;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #1a2a3a;
+    border-radius: 2px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #00b8cc;
+  }
+}
+
+@layer components {
+  .section-container {
+    @apply max-w-5xl mx-auto px-6 py-20;
+  }
+
+  .section-label {
+    @apply font-mono text-xs text-cyan tracking-widest uppercase mb-2;
+  }
+
+  .section-title {
+    @apply font-syne text-4xl font-extrabold mb-10 leading-tight;
+  }
+
+  .card {
+    @apply bg-surface border border-border rounded-xl p-6 transition-all duration-300;
+  }
+
+  .card-hover {
+    @apply hover:border-cyan-dim hover:-translate-y-1;
+  }
+
+  .tag {
+    @apply bg-surface2 border border-border text-muted font-mono text-xs px-3 py-1 rounded-sm
+           tracking-wider transition-all duration-200 cursor-default
+           hover:border-cyan-dim hover:text-cyan;
+  }
+
+  .btn-primary {
+    @apply bg-cyan text-bg font-mono text-xs font-bold px-6 py-3 rounded-sm
+           tracking-wider transition-opacity duration-200 hover:opacity-85 inline-block;
+  }
+
+  .btn-outline {
+    @apply border border-border text-muted font-mono text-xs px-6 py-3 rounded-sm
+           tracking-wider transition-all duration-200 hover:border-cyan hover:text-cyan inline-block;
+  }
+
+  .divider {
+    @apply max-w-5xl mx-auto border-t border-border;
+  }
+}
