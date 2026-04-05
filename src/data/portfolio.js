@@ -65,13 +65,13 @@ export const projects = [
   {
     number: '01',
     date: 'March 2026',
-    name: 'Urban Loop',
-    subtitle: 'MERN Stack Social Media Platform',
+    name: 'Heaven Village',
+    subtitle: 'Property Rental Mern Platform',
     tech: ['MongoDB', 'Express.js', 'React', 'Node.js', 'Socket.io', 'Maps API', 'Firebase'],
     description:
-      'Full-stack social media platform with real-time chat, communities, and secure authentication. Features map-based nearby location discovery and a fully responsive UI for improved user engagement and scalability.',
-    github: 'https://github.com/Dolamani-Meher-999/Urban-Loop.git', // 🔁 Replace
-    live: 'https://urban-loop.vercel.app',                 // 🔁 Replace
+      'Full-stack property rental platform with real-time chat, communities, and secure authentication.Three different role based authenticated dashboards and functionalities with a fully responsive UI for improved user engagement and scalability.',
+    github: 'https://github.com/Dolamani-Meher-999/Heaven-village.git', // 🔁 Replace
+    live: 'https://heaven-village.vercel.app/',                 // 🔁 Replace
     featured: true,
   },
   {
@@ -83,7 +83,7 @@ export const projects = [
     description:
       'Decentralized auction system using smart contracts for secure, transparent bidding. Integrated MetaMask wallet, React + Web3.js frontend, and deployed smart contracts to simulate real-world blockchain transactions.',
     github: 'https://github.com/Dolamani-Meher-999/Decentralized-Auction-App.git', // 🔁 Replace
-    live: 'https://auction-dapp.vercel.app',                  // 🔁 Replace
+    live: 'https://decentralized-auction-app-s5ya.vercel.app/',                  // 🔁 Replace
     featured: true,
   },
   {
@@ -95,7 +95,7 @@ export const projects = [
     description:
       'ML-powered recommendation engine using collaborative and content-based filtering. Processed large datasets and optimized cosine similarity calculations to significantly improve recommendation accuracy.',
     github: 'https://github.com/Dolamani-Meher-999/Movie-recommendation.git', // 🔁 Replace
-    live: 'https://movie-recommender.streamlit.app',               // 🔁 Replace
+    live: 'https://movie-recommendation-rho-sepia.vercel.app/',               // 🔁 Replace
     featured: false,
   },
 ]
