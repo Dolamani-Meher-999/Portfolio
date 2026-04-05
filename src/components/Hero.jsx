@@ -123,7 +123,7 @@ export default function Hero() {
             <div className="relative w-52 h-52 md:w-60 md:h-60 rounded-full overflow-hidden border-2 border-cyan/50 bg-surface2 shadow-lg">
               {!imgError ? (
                 <img
-                  src="/dolamani.jpg"
+                  src="/Myimage.jpg"
                   alt="Dolamani Meher"
                   className="w-full h-full object-cover"
                   style={{ objectPosition: 'center top' }}
@@ -166,11 +166,11 @@ export default function Hero() {
         </div>
       </div>
 
-      {/* Scroll indicator */}
+      {/* Scroll indicator
       <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 opacity-30">
         <span className="font-mono text-xs tracking-widest">scroll</span>
         <div className="w-px h-8 bg-muted animate-pulse" />
-      </div>
+      </div> */}
     </section>
   )
 }

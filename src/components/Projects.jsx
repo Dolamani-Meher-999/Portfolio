@@ -87,7 +87,6 @@ function ProjectCard({ number, date, name, subtitle, tech, description, github, 
 export default function Projects() {
   return (
     <section id="projects" className="section-container">
-      <p className="section-label">// 03 — featured builds</p>
       <h2 className="section-title">Projects</h2>
 
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">

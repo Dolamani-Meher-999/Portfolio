@@ -63,7 +63,7 @@ export default function Footer() {
   return (
     <footer id="contact" className="border-t border-border">
       <div className="max-w-5xl mx-auto px-6 py-20 text-center">
-        <p className="section-label justify-center mb-4">// 06 — let's connect</p>
+        <p className="section-label justify-center mb-4">Let's connect</p>
 
         <h2 className="font-syne text-4xl font-extrabold mb-3">
           Get In <span className="text-cyan">Touch</span>

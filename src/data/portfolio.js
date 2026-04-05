@@ -125,8 +125,24 @@ export const education = [
 ]
 
 export const certifications = [
-  { name: 'Django Web Development', org: 'Certification' },
-  { name: 'DevOps Certification', org: 'CI/CD · Kubernetes' },
-  { name: 'Data Analytics Certification', org: 'Tutedude' },
-  { name: 'Blockchain Development', org: 'FIIT Delhi' },
+  { 
+    name: 'Django Web Development', 
+    org: 'Certification',
+    link: 'https://drive.google.com/file/d/1j7KlobYT5Hd8FLVHqatsRL_DzYFAz2sH/view?usp=sharing'
+  },
+  { 
+    name: 'DevOps Cloud Certification', 
+    org: 'CI/CD · Kubernetes',
+    link: 'https://drive.google.com/file/d/14ECS_gVwTbrJoz6TYC2J22YYvlSX8TA_/view?usp=sharing'
+  },
+  { 
+    name: 'Data Analytics Certification', 
+    org: 'Tutedude',
+    link: 'https://drive.google.com/file/d/1ts-U17fqcsCWaAYKlUJ8e2GChRss429J/view?usp=sharing'
+  },
+  { 
+    name: 'IBM Artificial Intelligence', 
+    org: 'IBM',
+    link: 'https://drive.google.com/file/d/16GadUXZGm6bpoQeLG3EbwMv_x3vZCYRE/view?usp=sharing'
+  },
 ]
